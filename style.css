@@ -1,5 +1,5 @@
 .main{
-    background-image: url("assets/images/bg.avif");
+    background-image: url("bg.avif");
     text-align: center;
     font-style: italic;
 
@@ -151,4 +151,5 @@ button{
        justify-content: center;
        display: flex;
        align-content: center;
+
     }
