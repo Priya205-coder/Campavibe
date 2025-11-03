@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campavibe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="main">
+    National Institute of Technology,Silchar.
+
+    <div class="box"> </div>
+  </main>
+  <nav>Campus resource and event portal...
+  </nav>
+  <h1>Campavibe</h1><br><br>
+  <h2>#Know your campus more...</h2><br>
+
+
+  <div class="upload">
+    <h3>
+      <h4>Want to upload about events..?</h4><br>Click Here to upload
+      <a href="#uploading"><button>UPLOAD</button></a><br><br>
+    </h3>
+    <div class="video"><video  height="300vh" controls autoplay loop muted playsinline ><source  src="assets/videos/campa.mp4" type="video/mp4"></video></div>
+  </div>
+  <form id="search-form">
+    <input type="text" id="search-input" placeholder="Search events...">
+    <button type="submit">Search</button><br><br>
+  </form>
+
+
+
+
+
+
+  </div>
+  </div>
+  <div class="filter-container">
+    <label for="Startdate"> *Starting Date</label>
+    <input type="date" id="Startdate"><br>
+    <label for="end date">*Ending date</label>
+    <input type="date" id="Enddate"><br>
+    <label for="deptfilter">*Department:</label>
+    <select name="" id="deptfilter">
+      <option value="all">All departments</option>
+      <option value="CSE">CSE Department</option>
+      <option value="ECE">ECE Department</option>
+      <option value="EIE">EIE Department</option>
+      <option value="EE">EE Department</option>
+      <option value="ME">ME Department</option>
+      <option value="CE">CE Department</option>
+    </select><br><br>
+    <button id="applyfilters">Apply filters</button>
+    <button id="clearfilters">Clear all</button><br><br>
+
+    <div id="event-container">
+      
+
+    </div>
+
+    <div class="container">
+      <div class="Incandescence">Incandescence
+        <div><a href="https://www.incand.in">Know more...</a></div>
+        <img class="incand" src="assets/images/incandescence.jpg" alt="">
+      </div>
+      <div class="Incandescence">Technoesis
+        <div>
+          <a class="incand" href="https://technoesis.co.in">Know more...</a>
+        </div>
+        <img src="assets/images/technoesis.jpg" alt="technoesis">
+      </div>
+    </div>
+    <div>
+      <h2>CLUBS</h2>
+      <ul id="items">
+        <div class="Power">
+          <li>
+            <div class="clubs">AAVEG
+              <img src="assets/images/aaveg.png" alt="aaveg">
+            </div>
+          </li>
+          <li>
+            <div class="clubs">ADVAY
+              <img src="assets/images/advay.png" alt="advay">
+            </div>
+          </li>
+          <li>
+            <div class="clubs">N.E.R.D.S.
+              <img src="assets/images/nerds.png" alt="nerds">
+              <a href="https://www.nerdsnitsilchar.in">
+                <button>
+                  Click here to know all about N.E.R.D.S.</button></a>
+            </div>
+          </li>
+          <li>
+            <div class="clubs">Nitsmun
+              <img src="assets/images/nitsmun.png" alt="">
+              <span></span>
+              <a href="https://www.nitsmun.co.in"><button>EVENTS</button></a>
+            </div>
+          </li>
+          <li>
+            <div class="clubs">Finance Club
+              <img src="assets/images/finance.png" alt="">
+            </div>
+          </li>
+          <li>
+            <div class="clubs">Machine Learning club
+              <img src="assets/images/ml.png" alt="">
+              <a href="https://www.mlclubnits.com"><button>EVENTS</button></a>
+            </div>
+          </li>
+          <li>
+            <div class="clubs">Mountaineering and trekking club.
+              <img src="assets/images/adventure.png" alt="">
+            </div>
+          </li>
+      </ul>
+
+
+    </div>
+    <h2>SOCIETIES</h2>
+    <div class="Power">
+      <div class="Society">Robotics and Automation Society <img src="assets/images/RAS.jpg" alt=""></a></div>
+      <div class="Society">INSEES
+        <a href="https://eie.nits.ac.in"><button>EVENTS</button></a>
+      </div>
+      
+
+
+      <div class="Society">Electra Society <img src="assets/images/electra.jpg" alt=""></div>
+      <div class="Society">Gyansagar</div>
+
+
+
+
+
+    </div>
+
+
+    <div class="Society">ASME
+      <img src="assets/images/asme.jpg" alt="">
+      <a href="https://www.asme.org">Know more...</a>
+    </div>
+    <div class="Society">E-cell
+      <img src="assets/images/e cell.png" alt="">
+      <a href="https://ecellnits.org"><button>EVENTS</button></a>
+    </div><br><br>
+    
+
+
+
+
+
+
+   
+
+
+
+
+    <hr><br><br> 
+    <h1 id="uploading">Process your Uploading...</h1>
+    <h2>Enter your information..</h2><br><br>
+    <form id="add-event-form">
+      <input type="text" id="event-name" placeholder="Event Name" required><br><br>
+      <input type="date" id="event-date" required><br><br>
+      <textarea id="event-desc" placeholder="Event Description" rows="3" required></textarea><br><br>
+      <button type="submit">Add Event</button><br>
+    </form>
+    <script src="script.js">
+      
+
+
+    </script>
+</body>
+
+</html>
